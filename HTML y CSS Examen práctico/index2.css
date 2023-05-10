@@ -1,0 +1,191 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Zawya Pro Arabic Wide Bold', monospace;
+    font-family: 'Zawya Pro Arabic Wide Bold', sans-serif;
+}
+
+body,html{
+    height: 100%;
+    width: 100%;
+}
+
+
+header{
+    height:160px;
+    padding: 48px;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #08bc64;
+    text-align: center;
+    color: white;
+}
+header h1{
+    font-size: 50px;
+}
+
+
+main{
+    height: calc(100% - 208px);
+    width: 100%;
+    background-color: #08bc64;
+}
+
+main #content{
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    height: 100%;
+    background-color: white;
+}
+
+
+main #izq{
+    width: 33%;
+    height: 100%;
+    padding: 32px;
+    box-sizing: border-box;
+    float: left;
+    position: relative;
+    font-size: 1.5vw;
+}
+main #izq .divizq{
+    height:27%; 
+    width:100%;
+    position: relative;
+
+}
+main #izq .divizq div{
+    border:2px solid;
+    width: 100%;
+    height: 50%;
+    margin-bottom: 10%;
+    position: relative;
+}
+main #izq .divizq p{
+    margin-bottom: 5%;
+}
+main #izq #boton{
+    height:12%; 
+    width:60%;
+    margin-left: 10%;
+    margin-right: 10%;      
+    background-color:rgb(69, 117, 206);
+    border:1px solid;
+    border-color:rgb(69, 117, 206) ;
+    border-radius:22px;
+    text-align: center;
+    margin-top: 7%;
+    position: relative;
+}
+main #izq #boton p{
+    margin-top: 5%;
+    font-size: 1.8vw;
+    color: white;
+    position: relative;
+}
+
+
+main #cent{
+    width: 34%;
+    height: 100%;
+    padding: 18px;
+    box-sizing: border-box;
+    float: left;
+    position: relative;
+    text-align: center;
+}
+main #cent h1{
+    font-size: 2.5vw;
+}
+main #cent #media{
+    height: 40%;
+    margin-left: 20%;
+    width: 60%;
+    margin-bottom: 5%;
+}
+
+main #cent #media #face{
+    margin-top: 2%;
+    margin-left: 10%;
+    height: auto;
+    width: 40%;
+    float: left;
+    position: relative;
+}
+main #cent #media #twit{
+    margin-top: 4.5%;
+    margin-left: 5%;
+    height: auto;
+    width: 33%;
+    float: left;
+    position: relative;
+}
+main #cent #textos{
+    margin-left: 5%;
+    height: 20%;
+    text-align: justify;
+    width: 90%;
+}
+main #cent #textos h1{
+    margin-left: 10%;
+}
+main #cent #events{
+    height: 25%;
+    width: 70;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+main #cent #events #inst{
+    margin-top: 12%;
+    margin-left: 10%;
+    height: auto;
+    width: 35%;
+    float: left;
+    position: relative;
+}
+main #cent #events #you{
+    margin-top: 14%;
+    margin-left: 5%;
+    height: auto;
+    width: 40%;
+    float: left;
+    position: relative; 
+}
+
+
+
+main #der{
+    width: 33%;
+    height: 100%;
+    padding: 24px;
+    box-sizing: border-box;
+    float: left;
+    position: relative;
+}
+main #der .perfiles{
+    box-sizing: border-box;
+    width: 90%;
+    height: 45%;
+    margin: 5% 2.5% 2.5% 5%;
+    text-align: center;
+    background-color: #08bc64;
+    font-size: 1.3vw;
+    letter-spacing: 0.10em;
+    color: white;
+}
+main #der .perfiles img{
+    box-sizing: border-box;
+    margin-top: 16px;
+    margin-bottom: 8px;
+    height: 50%;
+    width: auto;
+    background-color: #08bc64;
+}
+footer{
+    height:48px;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #08bc64;
+    font-size: auto;
+}
